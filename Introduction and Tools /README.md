@@ -21,6 +21,13 @@ Basically will provide the process behavioral description as input. And we are g
 ## Steps to create UI
 ![img6](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img6.png)
 
+## Different scenario for incorrect Input
+
+### User doesn't provide an input CVS file
+![img7](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img7.png)
+![img8](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img8.png)
+![img9](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img9.png)
+
 Tools:
 1. LibreOffice: A software to open any Excel sheet
 2. Yosys: Synthesis tool
