@@ -18,5 +18,10 @@ Consider design data as any processor and text as the output of a data processor
 Basically will provide the process behavioral description as input. And we are generating output as a data sheet, results, or characterization of the process. And in between lies the tickle box/TCL interface that needs to process the input and give you the output. 
 ![img5](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img5.png)
 
+## Steps to create UI
+![img6](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img6.png)
+
 Tools:
-1. LibreOffice: A software to open any Excel sheet 
+1. LibreOffice: A software to open any Excel sheet
+2. Yosys: Synthesis tool
+3. Opemtimer: Timing tool. STA
