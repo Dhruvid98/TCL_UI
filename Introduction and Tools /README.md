@@ -26,7 +26,18 @@ Basically will provide the process behavioral description as input. And we are g
 ### User doesn't provide an input CVS file
 ![img7](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img7.png)
 ![img8](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img8.png)
-![img9](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img9.png)
+![img9](https://github.com/Dhruvid98/TCL_UI/blob/main/Introduction%20and%20Tools%20/Images/img9.png)  
+
+### User provides incorrect CSV or trying "-help"
+* Incorrect CSV
+```
+if (! -f $argv[1] || $argv[1] == "-help") then
+     if ($argv[1] != "-help") then
+         echo "Error: Cannot find csv file $argv[1]. Exiting!"
+         exit 1
+endif
+```
+![img10]()
 
 Tools:
 1. LibreOffice: A software to open any Excel sheet
